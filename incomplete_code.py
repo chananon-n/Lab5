@@ -44,7 +44,7 @@ class Train( Transportation ):
       self.fare = fare
 
    def find_cost( self ):
-      return self.fare * ( self.end - self.start )
+      return self.fare * self.distance
 
    def start_place( self ):
         return self.start
